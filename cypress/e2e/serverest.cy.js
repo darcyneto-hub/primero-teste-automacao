@@ -26,7 +26,7 @@ describe('tarefas',() => {
    })
 
    
-  it('informar o e-mail/Senha e confirmar', () =>{
+  it('informar o e-mail/Senha e confirmar', () =>{ //cenário 3
     cy.visit('https://front.serverest.dev/login')
       //cy.get('input[id="registrarFrequenciaForm\:txCpf"]').type('12345678900');
       cy.get('input[id="email"]').type('USUARIO_TESTE@gmail.com')
