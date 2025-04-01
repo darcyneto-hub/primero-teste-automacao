@@ -36,7 +36,7 @@ describe('tarefas',() => {
       cy.wait(3000)
   })
 
-  it('Pesquisar o item', () =>{
+  it('Pesquisar o item', () =>{ //cenário 4
     cy.visit('https://front.serverest.dev/home')
     //captura de entrada de dados como usuario e senha
     cy.get('input[id="email"]').type('USUARIO_TESTE@gmail.com')
